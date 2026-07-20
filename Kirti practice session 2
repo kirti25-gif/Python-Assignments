@@ -1,0 +1,317 @@
+n = 5
+
+# Upper pyramid
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    for j in range(1, i + 1):
+        print(i, end=" ")
+
+    print()
+
+# Lower inverted pyramid
+for i in range(n - 1, 0, -1):
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    for j in range(1, i + 1):
+        print(i, end=" ")
+    print()
+
+
+    n=5
+for i in range(1,n+1):
+    print(" " * (n- i) + " * " * i)
+
+
+
+    n = 5
+
+for i in range(1, n + 1):
+    # Print leading spaces
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    # Print full pyramid
+    for j in range(2 * i - 1):
+        print(i, end=" ")
+
+    print()
+    
+
+
+
+
+    n = 5
+
+# Upper half
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    for j in range(2 * i - 1):
+        print(i, end=" ")
+
+    print()
+
+# Lower half
+for i in range(n - 1, 0, -1):
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    for j in range(2 * i - 1):
+        print(i, end=" ")
+
+    print()
+    
+
+
+    n = 5
+
+# Upper half
+for i in range(1, n + 1):
+    # Left wing
+    for j in range(i):
+        print("*", end=" ")
+
+    # Middle spaces
+    for j in range(2 * (n - i)):
+        print(" ", end=" ")
+
+    # Right wing
+    for j in range(i):
+        print("*", end=" ")
+
+    print()
+
+# Lower half
+for i in range(n - 1, 0, -1):
+    # Left wing
+    for j in range(i):
+        print("*", end=" ")
+
+    # Middle spaces
+    for j in range(2 * (n - i)):
+        print(" ", end=" ")
+
+    # Right wing
+    for j in range(i):
+        print("*", end=" ")
+
+    print()
+
+
+
+
+
+
+    n = 5
+
+# Upper half
+for i in range(1, n + 1):
+    # Left wing
+    for j in range(1, i + 1):
+        print(j, end=" ")
+
+    # Middle spaces
+    for j in range(2 * (n - i)):
+        print(" ", end=" ")
+
+    # Right wing
+    for j in range(1, i + 1):
+        print(j, end=" ")
+
+    print()
+
+# Lower half
+for i in range(n - 1, 0, -1):
+    # Left wing
+    for j in range(1, i + 1):
+        print(j, end=" ")
+
+    # Middle spaces
+    for j in range(2 * (n - i)):
+        print(" ", end=" ")
+
+    # Right wing
+    for j in range(1, i + 1):
+        print(j, end=" ")
+
+    print()
+
+
+
+
+
+    n = 5
+
+for i in range(1, n + 1):
+    # Print leading spaces
+    for j in range(n - i):
+        print(" ", end=" ")
+
+    # Print full pyramid
+    for j in range(2 * i - 1):
+        print(j, end=" ")
+
+    print()
+    
+
+
+
+
+    n = 5
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
+
+
+
+    rows = 5
+cols = 8
+
+for i in range(rows):
+    for j in range(cols):
+        print("*", end=" ")
+    print()
+
+
+
+
+
+    rows = 5
+cols = 8
+
+for i in range(rows):
+    for j in range(cols):
+        print(1, end=" ")
+    print()
+
+
+
+
+    rows = 4
+cols = 5
+count = 1
+
+for i in range(rows):
+    for j in range(cols):
+        print(count, end=" ")
+        count += 1
+    print()
+
+
+
+
+
+    for i in range(1, 4):
+        for j in range(3):
+            print(i, end=" ")
+    print()
+
+
+
+
+
+    for i in range(3):
+        for j in range(1, 4):
+            print(j, end=" ")
+    print()
+
+
+
+
+
+
+for i in range(1, 4):
+    for j in range(3):
+        print(j, end=" ")
+    print()
+
+
+
+
+
+    for i in range(3):
+        for j in range(1, 4):
+            print(i, end=" ")
+    print()
+
+
+
+
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"({i},{j})", end=" ")
+    print()
+
+
+
+    for i in range(1, 4):
+        for j in range(1, 4):
+            print(j**2, end=" ")
+    print()
+
+
+
+
+
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i**2, end=" ")
+    print()
+
+
+
+
+    n = 5
+
+for i in range(n):
+    for j in range(n):
+        if (i + j) % 2 == 0:
+            print("*", end=" ")
+        else:
+            print("#", end=" ")
+    print()
+
+
+
+
+    n = 5
+
+for i in range(n):
+    for j in range(n):
+        if i == n // 2 or j == n // 2:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+
+
+
+
+
+
+
+    rows = 5
+cols = 7
+
+for i in range(rows):
+    for j in range(cols):
+        if i == 0 or i == rows - 1 or j == 0 or j == cols - 1:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+
+    
+
+
