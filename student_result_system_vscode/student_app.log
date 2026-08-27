@@ -1,0 +1,74 @@
+Log file will be populated when student_result_system.py is executed.
+2026-08-25 14:28:31,042 - INFO - Application started.
+2026-08-25 14:28:31,043 - INFO - Student processing started.
+2026-08-25 14:44:11,868 - INFO - Application started.
+2026-08-25 14:44:11,869 - INFO - Student processing started.
+2026-08-25 14:44:20,109 - INFO - Student name received.
+2026-08-25 14:44:22,057 - DEBUG - Number of subjects accepted: 3
+2026-08-25 14:44:44,953 - INFO - Mark entered successfully for subject 1.
+2026-08-25 14:44:49,411 - INFO - Mark entered successfully for subject 2.
+2026-08-25 14:44:53,165 - INFO - Mark entered successfully for subject 3.
+2026-08-25 14:44:53,165 - DEBUG - Marks received: [85.0, 78.0, 92.0]
+2026-08-25 14:44:53,174 - INFO - Calculation completed.
+2026-08-25 14:44:53,175 - INFO - Student statistics calculated successfully.
+2026-08-25 14:44:53,175 - INFO - Student processing completed successfully.
+2026-08-25 14:44:53,175 - DEBUG - Finally block executed.
+2026-08-25 14:45:23,643 - INFO - Application completed.
+2026-08-25 14:45:23,644 - INFO - Application shutdown completed.
+2026-08-25 14:53:59,494 - INFO - Application started.
+2026-08-25 14:53:59,494 - INFO - Student processing started.
+2026-08-25 14:54:06,367 - INFO - Student name received.
+2026-08-25 14:54:09,573 - ERROR - Invalid number of subjects entered.
+2026-08-25 14:54:34,886 - DEBUG - Number of subjects accepted: 2
+2026-08-25 14:54:37,178 - WARNING - Invalid mark 120.00 entered for subject 1.
+2026-08-25 16:50:30,427 - INFO - Mark entered successfully for subject 1.
+2026-08-25 16:50:44,021 - INFO - Mark entered successfully for subject 2.
+2026-08-25 16:50:44,021 - DEBUG - Marks received: [0.0, 95.0]
+2026-08-25 16:50:44,021 - INFO - Calculation completed.
+2026-08-25 16:50:44,023 - INFO - Student statistics calculated successfully.
+2026-08-25 16:50:44,023 - WARNING - Student average is below the passing mark.
+2026-08-25 16:50:44,023 - INFO - Student processing completed successfully.
+2026-08-25 16:50:44,023 - DEBUG - Finally block executed.
+2026-08-25 16:50:55,334 - INFO - Application completed.
+2026-08-25 16:50:55,335 - INFO - Application shutdown completed.
+2026-08-25 16:51:14,640 - INFO - Application started.
+2026-08-25 16:51:14,640 - INFO - Student processing started.
+2026-08-25 16:51:52,545 - INFO - Student name received.
+2026-08-25 16:51:55,170 - DEBUG - Number of subjects accepted: 0
+2026-08-25 16:51:55,170 - WARNING - Zero subjects entered.
+2026-08-25 16:51:55,170 - ERROR - Cannot calculate average because subjects are zero.
+2026-08-25 16:51:55,171 - DEBUG - Finally block executed.
+2026-08-25 16:52:14,261 - INFO - User chose to process another student.
+2026-08-25 16:52:14,261 - INFO - Student processing started.
+2026-08-25 16:52:27,967 - INFO - Student name received.
+2026-08-25 16:52:34,087 - DEBUG - Number of subjects accepted: 2
+2026-08-25 16:52:37,943 - INFO - Mark entered successfully for subject 1.
+2026-08-25 16:52:40,241 - INFO - Mark entered successfully for subject 2.
+2026-08-25 16:52:40,241 - DEBUG - Marks received: [45.0, 95.0]
+2026-08-25 16:52:40,241 - INFO - Calculation completed.
+2026-08-25 16:52:40,243 - INFO - Student statistics calculated successfully.
+2026-08-25 16:52:40,243 - INFO - Student processing completed successfully.
+2026-08-25 16:52:40,243 - DEBUG - Finally block executed.
+2026-08-25 16:52:44,719 - INFO - Application completed.
+2026-08-25 16:52:44,719 - INFO - Application shutdown completed.
+2026-08-25 17:08:02,401 - INFO - Application started.
+2026-08-25 17:08:02,401 - INFO - Student processing started.
+2026-08-25 17:19:06,779 - ERROR - Non-numeric mark entered for subject 1.
+2026-08-25 21:38:52,096 - CRITICAL - Unexpected critical failure during student processing.
+Traceback (most recent call last):
+  File "c:\Users\kirti.bharat\Downloads\student_result_system_vscode\student_result_system.py", line 99, in process_student
+    name = get_student_name()
+  File "c:\Users\kirti.bharat\Downloads\student_result_system_vscode\student_result_system.py", line 37, in get_student_name
+    name = input("Enter student name: ").strip()
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+2026-08-25 21:38:52,099 - INFO - Application shutdown completed.
+2026-08-25 21:38:57,818 - CRITICAL - Unexpected critical failure during student processing.
+Traceback (most recent call last):
+  File "c:\Users\kirti.bharat\Downloads\student_result_system_vscode\student_result_system.py", line 99, in process_student
+    name = get_student_name()
+  File "c:\Users\kirti.bharat\Downloads\student_result_system_vscode\student_result_system.py", line 37, in get_student_name
+    name = input("Enter student name: ").strip()
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+2026-08-25 21:38:57,827 - INFO - Application shutdown completed.
